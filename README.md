@@ -4,7 +4,7 @@ Főbb komponensek:
 
 ## Vezérlő:
 
-Arduino Uno
+Arduino Uno R3
 
 ## Érzékelés:
 
