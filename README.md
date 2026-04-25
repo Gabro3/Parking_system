@@ -1,27 +1,27 @@
-# Parking System
+## Parking System
 Hardverarchitektúra
 Főbb komponensek:
 
-Vezérlő:
+# Vezérlő:
 
 Arduino Uno
 
-Érzékelés:
+# Érzékelés:
 
 HC-SR04 Ultrahangos távolságmérő(k)
 (parkolóhelyek foglaltságának érzékelésére)
 
-Megjelenítés:
+# Megjelenítés:
 
-1-digit 7-szegmenses kijelző
+LCD 16x2 (I2C) kijelző
 (szabad parkolóhelyek számának megjelenítésére)
 
-Logikai bővítés:
+# Logikai bővítés:
 
 74HC595 Shift Register
 (a kijelző vezérléséhez, lábtakarékossági célból)
 
-További komponensek:
+# További komponensek:
 
 170 lyukas próbapanel (breadboard)
 
@@ -29,7 +29,7 @@ ellenállások (220Ω a szegmensekhez)
 
 jumper kábelek
 
-Rendszer működése
+# Rendszer működése
 
 A rendszer ultrahangos szenzor(ok) segítségével folyamatosan méri a parkolóhely(ek) előtti távolságot.
 
